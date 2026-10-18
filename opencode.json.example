@@ -1,0 +1,15 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "instructions": [
+    "/path/to/wigai-full/AGENT-GUIDE.md"
+  ],
+  "mcp": {
+    "servers": {
+      "wigai": {
+        "type": "remote",
+        "url": "http://localhost:61169/mcp",
+        "oauth": false
+      }
+    }
+  }
+}
